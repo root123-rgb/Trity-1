@@ -1,4 +1,6 @@
 import mechanize
+W  = '\033[0m'  # white (normal)
+R  = '\033[31m' # red
 def anon():
     br = mechanize.Browser()
 
@@ -34,6 +36,6 @@ def anon():
 
 
     if "The e-mail has been sent anonymously!" in response:
-        print "The email has been sent successfully!! \n The recipient will get it in 12 hours!!"
+        print "The email has been sent successfully!! \n The recipient will get it in up to 12 hours!"
     else:
         print "Failed to send email!"
