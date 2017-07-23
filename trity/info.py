@@ -31,7 +31,3 @@ def info():
     print "|"+P+" Name: " + platform.node()
     print ""+W+"+--------------------------+"
     print "|"+O+" Interface: " + def_gw_device +W+"+--------------------------+"
-    FILE = open("othr/CompNetInfo.txt","w")
-    print "[" + G + "+" + W + "] Info saved to: othr/CompNetInfo.txt"
-    FILE.write("Mac Address: " + mac_address + "Local address: " + localaddr + "\nIP: " + ipaddr + "\nOperating System: " + platform.system() + "\nName: " + platform.node() + "\nInterface: " + def_gw_device)
-    FILE.close()
