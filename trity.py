@@ -126,7 +126,7 @@ def banner1():
     print ""
     print ""+M+"|----- Made by _t0x1c aka toxic -----|"
     print color.DARKCYAN +"|-----      Version: {}        -----|".format(VersionNum)
-    print color.WARNING + "|-----   1 tool - 35 choices    -----|"
+    print color.WARNING + "|-----   1 tool - 34 choices    -----|"
     print color.PURPLE + "\n|----- A Warm Welcome to Trity! -----|"
     print color.BLUE + "|----- Network Pentesting tool! -----|"
     print color.YELLOW + "|----- Have Fun and Stay Legal! -----|"
@@ -138,7 +138,7 @@ print ""+M+"|----- Made by _t0x1c aka toxic -----|"
 time.sleep(0.1)
 print color.DARKCYAN + "|-----      Version: {}        -----|".format(VersionNum)
 time.sleep(0.1)
-print color.WARNING + "|-----   1 tool - 35 choices    -----|"
+print color.WARNING + "|-----   1 tool - 34 choices    -----|"
 time.sleep(0.1) 
 print color.PURPLE + "\n|----- A Warm Welcome to Trity! -----|"
 time.sleep(0.1)
@@ -282,7 +282,7 @@ def tritymain():
 	            print (""+R+"[!] " + color.UNDERLINE + "\033[91m" + "That is not a directory!" + color.END)
 	    elif main == "tool":
 	        print(color.UNDERLINE + ''+C+'Version: ' + (VersionNum) + color.END)
-		print(color.UNDERLINE + ''+C+'36 options to choose from!' + color.END)
+		print(color.UNDERLINE + ''+C+'34 options to choose from!' + color.END)
 	        print(color.UNDERLINE + ''+C+'Time spent on it: 76 hours - 14 minutes' + color.END)
 	        print(color.UNDERLINE + ''+C+'toxic is a sp00ky h4ck3r' + color.END)
 	    elif main == "website":
